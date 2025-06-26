@@ -1,0 +1,11 @@
+@payments_service_HostAddress = http://localhost:5144
+
+GET {{payments_service_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{payments_service_HostAddress}}/todos/1
+Accept: application/json
+
+###
