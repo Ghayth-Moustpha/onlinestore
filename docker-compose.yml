@@ -41,3 +41,13 @@ services:
       - "5003:80"
     depends_on:
       - rabbitmq
+  apigateway:
+    build:
+      context: ./ApiGateway
+    ports:
+      - "8080:80"
+    depends_on:
+      - userservice
+      - productservice
+      - orderservice
+      - paymentservice
