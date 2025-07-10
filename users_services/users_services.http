@@ -1,6 +1,6 @@
 @users_services_HostAddress = http://localhost:5158
 
-GET {{users_services_HostAddress}}/weatherforecast/
+GET {{users_services_HostAddress}}/users/
 Accept: application/json
 
 ###
